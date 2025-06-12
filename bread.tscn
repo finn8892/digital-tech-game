@@ -1,0 +1,44 @@
+[gd_scene load_steps=8 format=3 uid="uid://cgunc5gr7p07x"]
+
+[ext_resource type="Texture2D" uid="uid://b2j8qp0hx1far" path="res://Bread/download-removebg-preview (2).png" id="1_nb6me"]
+[ext_resource type="Texture2D" uid="uid://cjr2ii1v2v4vx" path="res://background/image-removebg-preview (8).png" id="1_nsgqx"]
+[ext_resource type="Texture2D" uid="uid://bk32wrlnxfn5o" path="res://Bread/download-removebg-preview (3).png" id="2_gcw42"]
+[ext_resource type="Texture2D" uid="uid://268xrvjbr8rf" path="res://Bread/images-removebg-preview (1).png" id="3_nsgqx"]
+[ext_resource type="Texture2D" uid="uid://ddmdrvmt67tvl" path="res://Bread/images-removebg-preview.png" id="4_xljto"]
+[ext_resource type="Texture2D" uid="uid://flyvid7aibfi" path="res://Bread/marble_rye_3lb_IMG_5017-removebg-preview.png" id="5_raw7a"]
+[ext_resource type="Texture2D" uid="uid://yyjjvtip7gei" path="res://background/image-removebg-preview (7).png" id="7_xljto"]
+
+[node name="game" type="Node2D"]
+
+[node name="Image-removebg-preview(7)" type="Sprite2D" parent="."]
+position = Vector2(521, 509)
+scale = Vector2(0.554108, 0.532064)
+texture = ExtResource("7_xljto")
+
+[node name="Image-removebg-preview(8)" type="Sprite2D" parent="."]
+position = Vector2(531, 194.75)
+scale = Vector2(1.78531, 1.18472)
+texture = ExtResource("1_nsgqx")
+
+[node name="bread" type="Node2D" parent="."]
+
+[node name="Download-removebg-preview(2)" type="Sprite2D" parent="bread"]
+position = Vector2(289, 114)
+texture = ExtResource("1_nb6me")
+
+[node name="Download-removebg-preview(3)" type="Sprite2D" parent="bread"]
+position = Vector2(512, 109)
+texture = ExtResource("2_gcw42")
+
+[node name="Images-removebg-preview(1)" type="Sprite2D" parent="bread"]
+position = Vector2(403, 263)
+texture = ExtResource("3_nsgqx")
+
+[node name="Images-removebg-preview" type="Sprite2D" parent="bread"]
+position = Vector2(764, 109)
+texture = ExtResource("4_xljto")
+
+[node name="MarbleRye3LbImg5017-removebg-preview" type="Sprite2D" parent="bread"]
+position = Vector2(709, 264)
+scale = Vector2(0.478758, 0.561275)
+texture = ExtResource("5_raw7a")

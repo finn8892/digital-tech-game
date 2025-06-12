@@ -1,0 +1,35 @@
+[gd_scene load_steps=6 format=3 uid="uid://dv53wpywaixc7"]
+
+[ext_resource type="Texture2D" uid="uid://ck5ei5s326kcw" path="res://condiments/image-removebg-preview (3).png" id="1_khrgb"]
+[ext_resource type="Texture2D" uid="uid://d8x6xripvrsl" path="res://condiments/image-removebg-preview (4).png" id="2_48ev2"]
+[ext_resource type="Texture2D" uid="uid://dsw7b7ujs0mb" path="res://condiments/image-removebg-preview (5).png" id="3_hgl04"]
+[ext_resource type="Texture2D" uid="uid://y3pcutbgtoi6" path="res://condiments/5093843-removebg-preview.png" id="4_yedxk"]
+[ext_resource type="Texture2D" uid="uid://cwh0kb3sm8xac" path="res://condiments/image-removebg-preview (6).png" id="5_kkdnj"]
+
+[node name="game" type="Node2D"]
+
+[node name="condiments" type="Node2D" parent="."]
+
+[node name="Image-removebg-preview(3)" type="Sprite2D" parent="condiments"]
+position = Vector2(487, 192)
+scale = Vector2(0.564, 0.586)
+texture = ExtResource("1_khrgb")
+
+[node name="Image-removebg-preview(4)" type="Sprite2D" parent="condiments"]
+position = Vector2(793, 178)
+scale = Vector2(0.606, 0.549)
+texture = ExtResource("2_48ev2")
+
+[node name="Image-removebg-preview(5)" type="Sprite2D" parent="condiments"]
+position = Vector2(106, 113)
+scale = Vector2(0.789216, 0.740196)
+texture = ExtResource("3_hgl04")
+
+[node name="5093843-removebg-preview" type="Sprite2D" parent="condiments"]
+position = Vector2(538, 470)
+scale = Vector2(0.6775, 0.6325)
+texture = ExtResource("4_yedxk")
+
+[node name="Image-removebg-preview(6)" type="Sprite2D" parent="condiments"]
+position = Vector2(171, 521)
+texture = ExtResource("5_kkdnj")

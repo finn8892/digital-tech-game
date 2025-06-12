@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://bqseevdduu4wn"]
+
+[ext_resource type="Texture2D" uid="uid://doaxca1hniuac" path="res://cheese/image-removebg-preview (1).png" id="1_d3rdx"]
+[ext_resource type="Texture2D" uid="uid://dd6joljy6n75b" path="res://cheese/download-removebg-preview (4).png" id="1_kw545"]
+[ext_resource type="Texture2D" uid="uid://dcd76kuaopgtl" path="res://cheese/sliced+provolone-removebg-preview.png" id="3_ma2yl"]
+
+[node name="game" type="Node2D"]
+metadata/_edit_horizontal_guides_ = [23.0]
+
+[node name="cheese" type="Node2D" parent="."]
+
+[node name="Image-removebg-preview(1)" type="Sprite2D" parent="cheese"]
+position = Vector2(262, 104)
+scale = Vector2(0.638889, 0.492222)
+texture = ExtResource("1_d3rdx")
+
+[node name="Download-removebg-preview(4)" type="Sprite2D" parent="cheese"]
+position = Vector2(205, 187)
+scale = Vector2(0.790076, 0.677083)
+texture = ExtResource("1_kw545")
+
+[node name="Sliced+provolone-removebg-preview" type="Sprite2D" parent="cheese"]
+position = Vector2(401, 179)
+scale = Vector2(0.57, 0.487778)
+texture = ExtResource("3_ma2yl")

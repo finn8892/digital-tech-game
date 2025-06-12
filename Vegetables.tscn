@@ -1,0 +1,60 @@
+[gd_scene load_steps=10 format=3 uid="uid://ch2d8iec4r2d6"]
+
+[ext_resource type="Texture2D" uid="uid://c75ookbhqcqpg" path="res://vegetables/download__1_-removebg-preview (1).png" id="1_iccba"]
+[ext_resource type="Texture2D" uid="uid://pu6hsbaspbcp" path="res://vegetables/images-removebg-preview.png" id="2_l14dj"]
+[ext_resource type="Texture2D" uid="uid://b4dw2iv0lvu02" path="res://vegetables/download__4_-removebg-preview.png" id="3_sqrgl"]
+[ext_resource type="Texture2D" uid="uid://b4it5ot2sjt3o" path="res://vegetables/download__2_-removebg-preview.png" id="4_rnary"]
+[ext_resource type="Texture2D" uid="uid://cv6vydmt28y80" path="res://vegetables/istockphoto-490970562-612x612-removebg-preview.png" id="5_60y2v"]
+[ext_resource type="Texture2D" uid="uid://c80avayxxw088" path="res://vegetables/download__3_-removebg-preview.png" id="6_8ac5c"]
+[ext_resource type="Texture2D" uid="uid://ctdf6heab1wg6" path="res://vegetables/download__1_-removebg-preview.png" id="7_lv305"]
+[ext_resource type="Texture2D" uid="uid://dqo78su2y25gu" path="res://vegetables/download-removebg-preview.png" id="8_pdu72"]
+[ext_resource type="Texture2D" uid="uid://cpvr2aj83kf5j" path="res://vegetables/360_F_209918059_OOFw1wDIoqr4VOyVUDFkxASztMuVLHGa-removebg-preview.png" id="9_iqlin"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Vegetables" type="Node2D" parent="."]
+
+[node name="Download1-removebg-preview(1)" type="Sprite2D" parent="Vegetables"]
+position = Vector2(170.75, 202)
+scale = Vector2(1.42593, 1.36538)
+texture = ExtResource("1_iccba")
+
+[node name="Images-removebg-preview2" type="Sprite2D" parent="Vegetables"]
+position = Vector2(516.875, 431.125)
+scale = Vector2(1.33182, 1.27732)
+texture = ExtResource("2_l14dj")
+
+[node name="Download4-removebg-preview" type="Sprite2D" parent="Vegetables"]
+position = Vector2(762, 486)
+scale = Vector2(1.27222, 1.08111)
+texture = ExtResource("3_sqrgl")
+
+[node name="Download2-removebg-preview" type="Sprite2D" parent="Vegetables"]
+position = Vector2(1032, 474)
+scale = Vector2(0.896018, 0.868273)
+texture = ExtResource("4_rnary")
+
+[node name="Istockphoto-490970562-612x612-removebg-preview" type="Sprite2D" parent="Vegetables"]
+position = Vector2(974, 281)
+scale = Vector2(0.52775, 0.37025)
+texture = ExtResource("5_60y2v")
+
+[node name="Download3-removebg-preview" type="Sprite2D" parent="Vegetables"]
+position = Vector2(611, 277)
+scale = Vector2(1.11414, 1.07152)
+texture = ExtResource("6_8ac5c")
+
+[node name="Download1-removebg-preview2" type="Sprite2D" parent="Vegetables"]
+position = Vector2(186, 341)
+scale = Vector2(1.14752, 0.958055)
+texture = ExtResource("7_lv305")
+
+[node name="Download-removebg-preview" type="Sprite2D" parent="Vegetables"]
+position = Vector2(640, 86)
+scale = Vector2(0.721939, 0.844299)
+texture = ExtResource("8_pdu72")
+
+[node name="360F209918059OoFw1wDIoqr4vOyVudFkxASztMuVlhGa-removebg-preview" type="Sprite2D" parent="Vegetables"]
+position = Vector2(845, 116)
+scale = Vector2(0.412659, 0.617014)
+texture = ExtResource("9_iqlin")
