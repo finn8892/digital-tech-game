@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://flyvid7aibfi"
-path="res://.godot/imported/marble_rye_3lb_IMG_5017-removebg-preview.png-f5898c6d404ad9e51d1f7082ab0f4471.ctex"
+uid="uid://dlrj11nybx503"
+path="res://.godot/imported/download (1).jpg-c580fa818d75c23a08f48de787c440cd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Bread/marble_rye_3lb_IMG_5017-removebg-preview.png"
-dest_files=["res://.godot/imported/marble_rye_3lb_IMG_5017-removebg-preview.png-f5898c6d404ad9e51d1f7082ab0f4471.ctex"]
+source_file="res://background/download (1).jpg"
+dest_files=["res://.godot/imported/download (1).jpg-c580fa818d75c23a08f48de787c440cd.ctex"]
 
 [params]
 
