@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://c2f6tje76usaj"]
 
-[ext_resource type="Texture2D" uid="uid://cjr2ii1v2v4vx" path="res://background/image-removebg-preview (8).png" id="1_06t4h"]
+[ext_resource type="Texture2D" uid="uid://dn3hojxkasb87" path="res://background/vector-cartoon-illustration-kitchen-interior-cozy-modern-dinner-table-household-appliances-fridge-stove-microwave-113675611.webp" id="1_06t4h"]
 [ext_resource type="Script" uid="uid://dwx685nkjh1lg" path="res://main_menu.gd" id="1_fu7sn"]
 [ext_resource type="FontFile" uid="uid://d33swpje6gjnw" path="res://background/Cornbread-Regular.ttf" id="2_7vrkn"]
 

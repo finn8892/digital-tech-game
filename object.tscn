@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://ccolkfh442trl" path="res://Bread/download-removebg-preview.png" id="2_3xuqs"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3xuqs"]
-size = Vector2(267.785, 122)
+size = Vector2(268.792, 119)
 
 [node name="object" type="Node2D"]
 script = ExtResource("1_3xuqs")
@@ -18,8 +18,8 @@ texture = ExtResource("2_3xuqs")
 position = Vector2(-345, -144)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D2/Area2D"]
-position = Vector2(340.973, 147)
-scale = Vector2(1, 1)
+position = Vector2(345.503, 148.5)
+scale = Vector2(0.999999, 0.999999)
 shape = SubResource("RectangleShape2D_3xuqs")
 
 [connection signal="input_event" from="Sprite2D2/Area2D" to="." method="_on_area_2d_input_event"]

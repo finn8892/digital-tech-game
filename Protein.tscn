@@ -1,6 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://b6y373sslry1n"]
+[gd_scene load_steps=11 format=3 uid="uid://b6y373sslry1n"]
 
 [ext_resource type="Texture2D" uid="uid://dgbds55rilhb5" path="res://protein/deep-fried-tofu-isolated-on-transparent-background-png-removebg-preview.png" id="1_fr46y"]
+[ext_resource type="Script" uid="uid://cv842cvm5d62d" path="res://protein.gd" id="1_sxxsj"]
 [ext_resource type="Texture2D" uid="uid://nah3jy04lllx" path="res://protein/grilled-fish-fillet-with-lemon-and-herbs-isolate-background-png-removebg-preview.png" id="2_sxxsj"]
 [ext_resource type="Texture2D" uid="uid://udhfwm3ont8b" path="res://protein/image-removebg-preview.png" id="3_uuqnh"]
 [ext_resource type="Texture2D" uid="uid://ebxg04sq8jlh" path="res://protein/istockphoto-643362510-612x612-removebg-preview.png" id="4_3l1ll"]
@@ -8,41 +9,91 @@
 [ext_resource type="Texture2D" uid="uid://bti16vnbyqbtg" path="res://protein/sliced-cooked-turkey-breast-seasoned-and-ready-to-eat-cut-out-transparent-png-removebg-preview.png" id="6_pfcu3"]
 [ext_resource type="Texture2D" uid="uid://dfh1x32jwhl5g" path="res://protein/unnamed-removebg-preview.png" id="7_dbnvt"]
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uuqnh"]
+bg_color = Color(0.87699, 0.415257, 0.665883, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_color = Color(0.764982, 0.13254, 0.565818, 0.6)
+shadow_size = 5
+shadow_offset = Vector2(0, 3.5)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3l1ll"]
+bg_color = Color(0.87699, 0.415257, 0.665883, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_color = Color(0.764982, 0.13254, 0.565818, 0.6)
+shadow_size = 5
+shadow_offset = Vector2(0, 3.5)
+
 [node name="game" type="Node2D"]
+script = ExtResource("1_sxxsj")
 
 [node name="protein" type="Node2D" parent="."]
 
 [node name="Deep-fried-tofu-isolated-on-transparent-background-png-removebg-preview" type="Sprite2D" parent="protein"]
-position = Vector2(578, 128)
-scale = Vector2(0.627451, 0.661765)
+position = Vector2(345, 66)
+scale = Vector2(0.419935, 0.426471)
 texture = ExtResource("1_fr46y")
 
 [node name="Grilled-fish-fillet-with-lemon-and-herbs-isolate-background-png-removebg-preview" type="Sprite2D" parent="protein"]
-position = Vector2(217, 552)
-scale = Vector2(1.007, 1.215)
+position = Vector2(149, 416)
+scale = Vector2(0.764004, 0.9225)
 texture = ExtResource("2_sxxsj")
 
 [node name="Image-removebg-preview" type="Sprite2D" parent="protein"]
-position = Vector2(189, 111)
-scale = Vector2(0.806, 0.848)
+position = Vector2(130.25, 61)
+scale = Vector2(0.571, 0.648)
 texture = ExtResource("3_uuqnh")
 
 [node name="Istockphoto-643362510-612x612-removebg-preview" type="Sprite2D" parent="protein"]
-position = Vector2(878, 472)
-scale = Vector2(0.813725, 0.830882)
+position = Vector2(469, 409)
+scale = Vector2(0.570261, 0.592524)
 texture = ExtResource("4_3l1ll")
 
 [node name="Png-clipart-fried-egg-fried-egg-removebg-preview" type="Sprite2D" parent="protein"]
-position = Vector2(117, 329)
-scale = Vector2(0.624774, 0.555432)
+position = Vector2(112, 230)
+scale = Vector2(0.505877, 0.439579)
 texture = ExtResource("5_bgkvw")
 
 [node name="Sliced-cooked-turkey-breast-seasoned-and-ready-to-eat-cut-out-transparent-png-removebg-preview" type="Sprite2D" parent="protein"]
-position = Vector2(518, 376)
-scale = Vector2(0.679641, 0.73262)
+position = Vector2(404, 249)
+scale = Vector2(0.483533, 0.473262)
 texture = ExtResource("6_pfcu3")
 
 [node name="Unnamed-removebg-preview" type="Sprite2D" parent="protein"]
-position = Vector2(925, 131)
-scale = Vector2(0.594767, 0.667139)
+position = Vector2(660.875, 110.625)
+scale = Vector2(0.45297, 0.51204)
 texture = ExtResource("7_dbnvt")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_left = 773.0
+offset_top = 443.0
+offset_right = 1106.0
+offset_bottom = 580.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Button2" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_uuqnh")
+text = "Next
+"
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_3l1ll")
+text = "Back
+"
+
+[connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]

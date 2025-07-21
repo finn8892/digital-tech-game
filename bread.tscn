@@ -1,20 +1,38 @@
-[gd_scene load_steps=9 format=3 uid="uid://cgunc5gr7p07x"]
+[gd_scene load_steps=13 format=3 uid="uid://cgunc5gr7p07x"]
 
 [ext_resource type="Texture2D" uid="uid://cjr2ii1v2v4vx" path="res://background/image-removebg-preview (8).png" id="1_nsgqx"]
+[ext_resource type="Script" uid="uid://bcpa4n3lleefi" path="res://bread.gd" id="1_tkbcd"]
 [ext_resource type="Texture2D" uid="uid://crxfgol50lbck" path="res://Bread/images-removebg-preview (1).png" id="3_nsgqx"]
 [ext_resource type="Texture2D" uid="uid://ccolkfh442trl" path="res://Bread/download-removebg-preview.png" id="4_gcw42"]
 [ext_resource type="Texture2D" uid="uid://ddmdrvmt67tvl" path="res://Bread/images-removebg-preview.png" id="4_xljto"]
 [ext_resource type="Texture2D" uid="uid://wt2rooec2cbr" path="res://Bread/image-removebg-preview (1).png" id="6_nsgqx"]
 [ext_resource type="PackedScene" uid="uid://dfigky4ub56wb" path="res://object.tscn" id="7_nsgqx"]
-[ext_resource type="Texture2D" uid="uid://yyjjvtip7gei" path="res://background/image-removebg-preview (7).png" id="7_xljto"]
-[ext_resource type="PackedScene" uid="uid://dvg24k1i74jno" path="res://object.tscn2.tscn" id="8_xljto"]
+[ext_resource type="PackedScene" uid="uid://dvg24k1i74jno" path="res://object2.tscn" id="8_xljto"]
+[ext_resource type="PackedScene" uid="uid://cxqlu2ykotfg" path="res://object3.tscn" id="9_eyol1"]
+[ext_resource type="PackedScene" uid="uid://d3ejhg3uxtrk0" path="res://object4.tscn" id="10_tkbcd"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tkbcd"]
+bg_color = Color(0.87699, 0.415257, 0.665883, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_color = Color(0.764982, 0.13254, 0.565818, 0.6)
+shadow_size = 5
+shadow_offset = Vector2(0, 3.5)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t2kbv"]
+bg_color = Color(0.87699, 0.415257, 0.665883, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_color = Color(0.764982, 0.13254, 0.565818, 0.6)
+shadow_size = 5
+shadow_offset = Vector2(0, 3.5)
 
 [node name="game" type="Node2D"]
-
-[node name="Image-removebg-preview(7)" type="Sprite2D" parent="."]
-position = Vector2(521, 509)
-scale = Vector2(0.554108, 0.532064)
-texture = ExtResource("7_xljto")
+script = ExtResource("1_tkbcd")
 
 [node name="Image-removebg-preview(8)" type="Sprite2D" parent="."]
 position = Vector2(531, 194.75)
@@ -43,7 +61,42 @@ position = Vector2(767, 243)
 texture = ExtResource("6_nsgqx")
 
 [node name="object" parent="." instance=ExtResource("7_nsgqx")]
-position = Vector2(-129, 25)
+position = Vector2(-131, 28)
+
+[node name="object3" parent="." instance=ExtResource("9_eyol1")]
+position = Vector2(-227, -120)
+
+[node name="object4" parent="." instance=ExtResource("10_tkbcd")]
+position = Vector2(55, -115)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_left = 888.0
+offset_top = 449.0
+offset_right = 1202.0
+offset_bottom = 586.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Button2" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_tkbcd")
+text = "Next
+"
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_t2kbv")
+text = "Back
+"
 
 [node name="object2" parent="." instance=ExtResource("8_xljto")]
-position = Vector2(259, 4)
+position = Vector2(257, 0)
+
+[connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]
