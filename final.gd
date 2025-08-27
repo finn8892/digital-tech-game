@@ -1,12 +1,7 @@
-extends Control
+extends Node2D
 
-func _on_start_pressed() -> void:
+func _on_button_pressed() -> void:
 	get_tree().change_scene_to_file("res://scenes/bread.tscn")
-
-
-func _on_options_pressed() -> void:
-	print("options pressed")
-
 
 func _on_button_2_pressed() -> void:
 	get_tree().quit()

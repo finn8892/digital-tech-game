@@ -1,0 +1,99 @@
+[gd_scene load_steps=4 format=3 uid="uid://cgunc5gr7p07x"]
+
+[ext_resource type="Script" uid="uid://bcpa4n3lleefi" path="res://scripts/bread.gd" id="1_u136v"]
+[ext_resource type="Script" uid="uid://dxhx51hbdymeq" path="res://label.gd" id="7_vgbvh"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t2kbv"]
+bg_color = Color(0.87699, 0.415257, 0.665883, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_color = Color(0.764982, 0.13254, 0.565818, 0.6)
+shadow_size = 5
+shadow_offset = Vector2(0, 3.5)
+
+[node name="game" type="Node2D"]
+script = ExtResource("1_u136v")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_left = 939.0
+offset_top = 492.0
+offset_right = 1231.0
+offset_bottom = 629.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_t2kbv")
+text = "Next .
+"
+
+[node name="Button2" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_t2kbv")
+text = "Back .
+"
+
+[node name="Control" type="Control" parent="."]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="Control"]
+visible = false
+layout_mode = 0
+offset_left = 360.0
+offset_top = 86.0
+offset_right = 406.0
+offset_bottom = 161.0
+mouse_filter = 0
+text = "
+
+"
+script = ExtResource("7_vgbvh")
+
+[node name="Control2" type="Control" parent="."]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="Control2"]
+layout_mode = 0
+offset_left = 314.0
+offset_top = 187.0
+offset_right = 423.0
+offset_bottom = 262.0
+mouse_filter = 0
+text = "
+
+"
+script = ExtResource("7_vgbvh")
+
+[node name="Control3" type="Control" parent="."]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="Control3"]
+visible = false
+layout_mode = 0
+offset_left = 28.0
+offset_top = 290.0
+offset_right = 137.0
+offset_bottom = 365.0
+mouse_filter = 0
+text = "
+
+"
+script = ExtResource("7_vgbvh")
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_button_2_pressed"]

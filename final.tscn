@@ -1,0 +1,78 @@
+[gd_scene load_steps=7 format=3 uid="uid://dm7wr77k8k5lx"]
+
+[ext_resource type="Texture2D" uid="uid://dck3m8ubfjqkd" path="res://background/istockphoto-1182416207-612x612-removebg-preview.png" id="1_h0aww"]
+[ext_resource type="Script" uid="uid://c4vk7dcdxotjb" path="res://final.gd" id="1_qt6nr"]
+[ext_resource type="Texture2D" uid="uid://u81ihd8mai03" path="res://background/Pantone 15 1217 tcx hexcode c7b595 Solid color desert sand color Pantone.jpg" id="1_tvybu"]
+[ext_resource type="Texture2D" uid="uid://bp1i0axv2rxqu" path="res://background/Z7v841Y6TqOto8q3oFTSYg-removebg-preview.png" id="4_7678y"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_tvybu"]
+font_size = 44
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tvybu"]
+bg_color = Color(0.87699, 0.415257, 0.665883, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_color = Color(0.764982, 0.13254, 0.565818, 0.6)
+shadow_size = 5
+shadow_offset = Vector2(0, 3.5)
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_qt6nr")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Pantone151217TcxHexcodeC7b595SolidColorDesertSandColorPantone" type="Sprite2D" parent="CanvasLayer"]
+position = Vector2(593.125, 313.5)
+scale = Vector2(4.75425, 2.34354)
+texture = ExtResource("1_tvybu")
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+offset_left = -3.0
+offset_top = 113.0
+offset_right = 1169.0
+offset_bottom = 334.0
+text = "YOU! just made a healthy sandwich thanks for playing
+"
+label_settings = SubResource("LabelSettings_tvybu")
+
+[node name="Istockphoto-1182416207-612x612-removebg-preview" type="Sprite2D" parent="CanvasLayer"]
+position = Vector2(175.5, 429.5)
+scale = Vector2(0.786, 0.678)
+texture = ExtResource("1_h0aww")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer"]
+offset_left = 845.0
+offset_top = 492.0
+offset_right = 1231.0
+offset_bottom = 629.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Button" type="Button" parent="CanvasLayer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_tvybu")
+text = "Back.
+"
+
+[node name="Button2" type="Button" parent="CanvasLayer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_tvybu")
+text = "Exit."
+
+[node name="Z7v841y6TqOto8q3oFtsYg-removebg-preview" type="Sprite2D" parent="CanvasLayer"]
+modulate = Color(1, 1, 1, 0.0235294)
+position = Vector2(573, 328)
+scale = Vector2(2.83637, 1.78828)
+texture = ExtResource("4_7678y")
+
+[connection signal="pressed" from="CanvasLayer/VBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/VBoxContainer/Button2" to="." method="_on_button_2_pressed"]

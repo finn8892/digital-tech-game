@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://yptphfxfjcvr"
-path="res://.godot/imported/image-removebg-preview (6).png-45c4a7de40a90ea9e93cfc127a8aaf9d.ctex"
+uid="uid://u81ihd8mai03"
+path="res://.godot/imported/Pantone 15 1217 tcx hexcode c7b595 Solid color desert sand color Pantone.jpg-90b8ed539743ba5c3004a42b2f2f0ca0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://condiments/image-removebg-preview (6).png"
-dest_files=["res://.godot/imported/image-removebg-preview (6).png-45c4a7de40a90ea9e93cfc127a8aaf9d.ctex"]
+source_file="res://background/Pantone 15 1217 tcx hexcode c7b595 Solid color desert sand color Pantone.jpg"
+dest_files=["res://.godot/imported/Pantone 15 1217 tcx hexcode c7b595 Solid color desert sand color Pantone.jpg-90b8ed539743ba5c3004a42b2f2f0ca0.ctex"]
 
 [params]
 

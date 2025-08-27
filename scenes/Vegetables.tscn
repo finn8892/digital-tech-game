@@ -1,0 +1,110 @@
+[gd_scene load_steps=13 format=3 uid="uid://ch2d8iec4r2d6"]
+
+[ext_resource type="Script" uid="uid://p2x5sugd23u3" path="res://scripts/vegetables.gd" id="1_csul5"]
+[ext_resource type="Texture2D" uid="uid://c75ookbhqcqpg" path="res://vegetables/download__1_-removebg-preview (1).png" id="2_ca8eq"]
+[ext_resource type="Texture2D" uid="uid://pu6hsbaspbcp" path="res://vegetables/images-removebg-preview.png" id="3_3lmw8"]
+[ext_resource type="Texture2D" uid="uid://b4dw2iv0lvu02" path="res://vegetables/download__4_-removebg-preview.png" id="4_c8ltk"]
+[ext_resource type="Texture2D" uid="uid://b4it5ot2sjt3o" path="res://vegetables/download__2_-removebg-preview.png" id="5_x62hp"]
+[ext_resource type="Texture2D" uid="uid://cv6vydmt28y80" path="res://vegetables/istockphoto-490970562-612x612-removebg-preview.png" id="6_wuh12"]
+[ext_resource type="Texture2D" uid="uid://c80avayxxw088" path="res://vegetables/download__3_-removebg-preview.png" id="7_sw83o"]
+[ext_resource type="Texture2D" uid="uid://ctdf6heab1wg6" path="res://vegetables/download__1_-removebg-preview.png" id="8_ibfeh"]
+[ext_resource type="Texture2D" uid="uid://dqo78su2y25gu" path="res://vegetables/download-removebg-preview.png" id="9_nqey5"]
+[ext_resource type="Texture2D" uid="uid://cpvr2aj83kf5j" path="res://vegetables/360_F_209918059_OOFw1wDIoqr4VOyVUDFkxASztMuVLHGa-removebg-preview.png" id="10_nryny"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sqrgl"]
+bg_color = Color(0.87699, 0.415257, 0.665883, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_color = Color(0.764982, 0.13254, 0.565818, 0.6)
+shadow_size = 5
+shadow_offset = Vector2(0, 3.5)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rnary"]
+bg_color = Color(0.87699, 0.415257, 0.665883, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_color = Color(0.764982, 0.13254, 0.565818, 0.6)
+shadow_size = 5
+shadow_offset = Vector2(0, 3.5)
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_csul5")
+
+[node name="Vegetables" type="Node2D" parent="."]
+
+[node name="Download1-removebg-preview(1)" type="Sprite2D" parent="Vegetables"]
+position = Vector2(116, 72)
+scale = Vector2(0.971709, 0.836537)
+texture = ExtResource("2_ca8eq")
+
+[node name="Images-removebg-preview2" type="Sprite2D" parent="Vegetables"]
+position = Vector2(314, 66)
+scale = Vector2(0.714773, 0.846652)
+texture = ExtResource("3_3lmw8")
+
+[node name="Download4-removebg-preview" type="Sprite2D" parent="Vegetables"]
+position = Vector2(482, 61)
+scale = Vector2(0.762499, 0.621389)
+texture = ExtResource("4_c8ltk")
+
+[node name="Download2-removebg-preview" type="Sprite2D" parent="Vegetables"]
+position = Vector2(465, 306)
+scale = Vector2(0.611726, 0.555213)
+texture = ExtResource("5_x62hp")
+
+[node name="Istockphoto-490970562-612x612-removebg-preview" type="Sprite2D" parent="Vegetables"]
+position = Vector2(475, 173)
+scale = Vector2(0.371875, 0.261125)
+texture = ExtResource("6_wuh12")
+
+[node name="Download3-removebg-preview" type="Sprite2D" parent="Vegetables"]
+position = Vector2(87, 295)
+scale = Vector2(0.503016, 0.576997)
+texture = ExtResource("7_sw83o")
+
+[node name="Download1-removebg-preview2" type="Sprite2D" parent="Vegetables"]
+position = Vector2(84, 184)
+scale = Vector2(0.616468, 0.615175)
+texture = ExtResource("8_ibfeh")
+
+[node name="Download-removebg-preview" type="Sprite2D" parent="Vegetables"]
+position = Vector2(289, 179)
+scale = Vector2(0.405187, 0.539109)
+texture = ExtResource("9_nqey5")
+
+[node name="360F209918059OoFw1wDIoqr4vOyVudFkxASztMuVlhGa-removebg-preview" type="Sprite2D" parent="Vegetables"]
+position = Vector2(264, 295)
+scale = Vector2(0.279461, 0.36684)
+texture = ExtResource("10_nryny")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_left = 871.0
+offset_top = 474.0
+offset_right = 1204.0
+offset_bottom = 611.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Button2" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_sqrgl")
+text = "Next .
+"
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_rnary")
+text = "Back .
+"
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]
