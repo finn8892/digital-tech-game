@@ -25,8 +25,13 @@ script = ExtResource("1_qt6nr")
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="Pantone151217TcxHexcodeC7b595SolidColorDesertSandColorPantone" type="Sprite2D" parent="CanvasLayer"]
-position = Vector2(593.125, 313.5)
-scale = Vector2(4.75425, 2.34354)
+position = Vector2(537.563, 200.25)
+scale = Vector2(4.33631, 1.4881)
+texture = ExtResource("1_tvybu")
+
+[node name="Pantone151217TcxHexcodeC7b595SolidColorDesertSandColorPantone" type="Sprite2D" parent="CanvasLayer/Pantone151217TcxHexcodeC7b595SolidColorDesertSandColorPantone"]
+position = Vector2(-87.5313, 181.272)
+scale = Vector2(1.02172, 1.4881)
 texture = ExtResource("1_tvybu")
 
 [node name="Label" type="Label" parent="CanvasLayer"]
@@ -44,9 +49,9 @@ scale = Vector2(0.786, 0.678)
 texture = ExtResource("1_h0aww")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer"]
-offset_left = 845.0
+offset_left = 883.0
 offset_top = 492.0
-offset_right = 1231.0
+offset_right = 1269.0
 offset_bottom = 629.0
 size_flags_horizontal = 4
 size_flags_vertical = 4

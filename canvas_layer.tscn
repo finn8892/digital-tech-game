@@ -59,7 +59,7 @@ size = Vector2(229.651, 139.361)
 size = Vector2(346.748, 203.044)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uc0vg"]
-size = Vector2(610.716, 257.849)
+size = Vector2(610.716, 289.967)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lljfd"]
 size = Vector2(506.672, 280.492)
@@ -89,7 +89,7 @@ size = Vector2(143.178, 165.74)
 size = Vector2(291.135, 433.341)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wk7ha"]
-size = Vector2(480.325, 353.075)
+size = Vector2(472.949, 353.075)
 
 [sub_resource type="LabelSettings" id="LabelSettings_af0nv"]
 font_size = 25
@@ -116,8 +116,9 @@ font_size = 25
 font_color = Color(0, 0, 0, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_x0op4"]
-font_size = 15
-font_color = Color(0, 0, 0, 1)
+font_size = 8
+outline_size = 9
+outline_color = Color(0.917457, 0.182412, 0.513582, 1)
 
 [node name="CanvasLayer" type="CanvasLayer"]
 layer = -8
@@ -130,6 +131,11 @@ position = Vector2(150.438, 174)
 scale = Vector2(0.736582, 1.10556)
 texture = ExtResource("1_v2lfg")
 
+[node name="63040f24d2a089b29c8Eb3590002Pan-removebg-preview3" type="Sprite2D" parent="CanvasLayer2"]
+position = Vector2(632.625, 497.625)
+scale = Vector2(0.760399, 0.870092)
+texture = ExtResource("4_fkxa7")
+
 [node name="Image-removebg-preview(2)" type="Sprite2D" parent="CanvasLayer2"]
 position = Vector2(467.875, 171)
 scale = Vector2(0.7475, 0.742)
@@ -140,14 +146,9 @@ position = Vector2(911, 536)
 scale = Vector2(0.450401, 0.432365)
 texture = ExtResource("4_0qrqu")
 
-[node name="63040f24d2a089b29c8Eb3590002Pan-removebg-preview" type="Sprite2D" parent="CanvasLayer2"]
-position = Vector2(818, 173)
-scale = Vector2(0.783348, 0.960095)
-texture = ExtResource("4_fkxa7")
-
 [node name="Image-removebg-preview(2)2" type="Sprite2D" parent="CanvasLayer2"]
-position = Vector2(1077, 236.063)
-scale = Vector2(0.317, 1.02775)
+position = Vector2(701, 161.531)
+scale = Vector2(0.317, 0.785875)
 texture = ExtResource("8_n6wdb")
 
 [node name="63040f24d2a089b29c8Eb3590002Pan-removebg-preview2" type="Sprite2D" parent="CanvasLayer2"]
@@ -156,8 +157,8 @@ scale = Vector2(0.942374, 0.874134)
 texture = ExtResource("4_fkxa7")
 
 [node name="Image-removebg-preview(8)" type="Sprite2D" parent="CanvasLayer2"]
-position = Vector2(626, 494)
-scale = Vector2(0.780132, 0.988889)
+position = Vector2(973.438, 172)
+scale = Vector2(0.879708, 1.11111)
 texture = ExtResource("1_v2lfg")
 
 [node name="Download-removebg-preview(1)" type="Sprite2D" parent="CanvasLayer2"]
@@ -201,67 +202,67 @@ scale = Vector2(0.211111, 0.191111)
 texture = ExtResource("14_robvp")
 
 [node name="Download-removebg-preview(1)9" type="Sprite2D" parent="CanvasLayer2"]
-position = Vector2(721, 76)
+position = Vector2(751, 402)
 scale = Vector2(0.262673, 0.231679)
 texture = ExtResource("14_robvp")
 
 [node name="Download-removebg-preview(1)10" type="Sprite2D" parent="CanvasLayer2"]
-position = Vector2(831, 81)
-scale = Vector2(0.261805, 0.241455)
+position = Vector2(751, 519)
+scale = Vector2(0.23757, 0.187394)
 texture = ExtResource("14_robvp")
 
 [node name="Download-removebg-preview(1)11" type="Sprite2D" parent="CanvasLayer2"]
-position = Vector2(939, 71)
-scale = Vector2(0.275555, 0.24)
+position = Vector2(595, 496)
+scale = Vector2(0.253332, 0.186667)
 texture = ExtResource("14_robvp")
 
 [node name="Download-removebg-preview(1)12" type="Sprite2D" parent="CanvasLayer2"]
-position = Vector2(719, 213)
+position = Vector2(751, 467)
 scale = Vector2(0.233334, 0.213334)
 texture = ExtResource("14_robvp")
 
 [node name="Download-removebg-preview(1)13" type="Sprite2D" parent="CanvasLayer2"]
-position = Vector2(832, 221)
-scale = Vector2(0.260074, 0.212919)
+position = Vector2(591.871, 439.523)
+scale = Vector2(0.250037, 0.190904)
 texture = ExtResource("14_robvp")
 
 [node name="Download-removebg-preview(1)14" type="Sprite2D" parent="CanvasLayer2"]
-position = Vector2(945, 219)
-scale = Vector2(0.272639, 0.217134)
+position = Vector2(595.664, 385.786)
+scale = Vector2(0.20743, 0.179678)
 texture = ExtResource("14_robvp")
 
 [node name="Download-removebg-preview(1)15" type="Sprite2D" parent="CanvasLayer2"]
-position = Vector2(1072, 333)
+position = Vector2(691, 146)
 scale = Vector2(0.192981, 0.164476)
 texture = ExtResource("14_robvp")
 
 [node name="Download-removebg-preview(1)16" type="Sprite2D" parent="CanvasLayer2"]
-position = Vector2(1071, 197)
+position = Vector2(1284, 181)
 scale = Vector2(0.195556, 0.159966)
 texture = ExtResource("14_robvp")
 
 [node name="Download-removebg-preview(1)17" type="Sprite2D" parent="CanvasLayer2"]
-position = Vector2(1076, 57)
+position = Vector2(691, 48)
 scale = Vector2(0.218578, 0.16)
 texture = ExtResource("14_robvp")
 
 [node name="Download-removebg-preview(1)18" type="Sprite2D" parent="CanvasLayer2"]
-position = Vector2(154, 422)
+position = Vector2(150, 386)
 scale = Vector2(0.198856, 0.204978)
 texture = ExtResource("14_robvp")
 
 [node name="Download-removebg-preview(1)19" type="Sprite2D" parent="CanvasLayer2"]
-position = Vector2(149.491, 476.472)
+position = Vector2(148, 441)
 scale = Vector2(0.200081, 0.191364)
 texture = ExtResource("14_robvp")
 
 [node name="Download-removebg-preview(1)20" type="Sprite2D" parent="CanvasLayer2"]
-position = Vector2(147, 535)
+position = Vector2(149, 495)
 scale = Vector2(0.199577, 0.203426)
 texture = ExtResource("14_robvp")
 
 [node name="Download-removebg-preview(1)21" type="Sprite2D" parent="CanvasLayer2"]
-position = Vector2(147, 594)
+position = Vector2(419, 510)
 scale = Vector2(0.203639, 0.166614)
 texture = ExtResource("14_robvp")
 
@@ -271,17 +272,17 @@ scale = Vector2(0.20769, 0.195556)
 texture = ExtResource("14_robvp")
 
 [node name="Download-removebg-preview(1)23" type="Sprite2D" parent="CanvasLayer2"]
-position = Vector2(286, 467)
+position = Vector2(286, 454)
 scale = Vector2(0.199274, 0.197649)
 texture = ExtResource("14_robvp")
 
 [node name="Download-removebg-preview(1)24" type="Sprite2D" parent="CanvasLayer2"]
-position = Vector2(296.385, 558.174)
+position = Vector2(287, 511)
 scale = Vector2(0.2188, 0.179326)
 texture = ExtResource("14_robvp")
 
 [node name="Download-removebg-preview(1)25" type="Sprite2D" parent="CanvasLayer2"]
-position = Vector2(396, 533)
+position = Vector2(406, 457)
 scale = Vector2(0.229421, 0.181721)
 texture = ExtResource("14_robvp")
 
@@ -489,7 +490,7 @@ scale = Vector2(0.386667, 0.419643)
 script = ExtResource("2_37rai")
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/Node2D"]
-position = Vector2(1575, 612.425)
+position = Vector2(2518.96, -190.638)
 scale = Vector2(1.28161, 1.33669)
 texture = ExtResource("5_fsbdh")
 
@@ -497,7 +498,7 @@ texture = ExtResource("5_fsbdh")
 position = Vector2(980.172, 576.681)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/Node2D/Sprite2D/Area2D"]
-position = Vector2(-982.19, -574.898)
+position = Vector2(-990.262, -576.681)
 shape = SubResource("RectangleShape2D_mx0kw")
 
 [node name="Node2D2" type="Node2D" parent="CanvasLayer"]
@@ -506,7 +507,7 @@ scale = Vector2(0.386667, 0.419643)
 script = ExtResource("2_37rai")
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/Node2D2"]
-position = Vector2(1215.52, 967.489)
+position = Vector2(2040.52, 169.191)
 scale = Vector2(1.24467, 1.38754)
 texture = ExtResource("6_n6wdb")
 
@@ -514,7 +515,7 @@ texture = ExtResource("6_n6wdb")
 position = Vector2(980.172, 576.681)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/Node2D2/Sprite2D/Area2D"]
-position = Vector2(-986.405, -581.833)
+position = Vector2(-969.783, -573.246)
 shape = SubResource("RectangleShape2D_mx0kw")
 
 [node name="Node2D3" type="Node2D" parent="CanvasLayer"]
@@ -523,7 +524,7 @@ scale = Vector2(0.386667, 0.419643)
 script = ExtResource("2_37rai")
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/Node2D3"]
-position = Vector2(1556.9, 946.042)
+position = Vector2(2495.69, 185.872)
 scale = Vector2(1.44253, 1.26255)
 texture = ExtResource("7_g3huw")
 
@@ -531,7 +532,7 @@ texture = ExtResource("7_g3huw")
 position = Vector2(980.172, 576.681)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/Node2D3/Sprite2D/Area2D"]
-position = Vector2(-964.036, -574.794)
+position = Vector2(-976.586, -565.357)
 shape = SubResource("RectangleShape2D_mx0kw")
 
 [node name="Node2D4" type="Node2D" parent="CanvasLayer"]
@@ -540,7 +541,7 @@ scale = Vector2(0.386667, 0.419643)
 script = ExtResource("2_37rai")
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer/Node2D4"]
-position = Vector2(1210.34, 614.808)
+position = Vector2(2094.83, -233.532)
 scale = Vector2(1.21552, 1.19504)
 texture = ExtResource("3_0qrqu")
 
@@ -548,7 +549,7 @@ texture = ExtResource("3_0qrqu")
 position = Vector2(980.172, 576.681)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer/Node2D4/Sprite2D/Area2D"]
-position = Vector2(-971.662, -568.705)
+position = Vector2(-978.044, -564.717)
 shape = SubResource("RectangleShape2D_4piyb")
 
 [node name="CanvasLayer5" type="CanvasLayer" parent="."]
@@ -560,7 +561,7 @@ scale = Vector2(0.386667, 0.419643)
 script = ExtResource("2_37rai")
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer5/Node2D"]
-position = Vector2(1647.41, -73.8723)
+position = Vector2(1518.1, 526.638)
 scale = Vector2(0.479251, 0.418233)
 texture = ExtResource("18_ml53l")
 
@@ -568,7 +569,7 @@ texture = ExtResource("18_ml53l")
 position = Vector2(980.172, 576.681)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer5/Node2D/Sprite2D/Area2D"]
-position = Vector2(-963.983, -565.286)
+position = Vector2(-1001.76, -542.495)
 shape = SubResource("RectangleShape2D_eyv6i")
 
 [node name="Node2D2" type="Node2D" parent="CanvasLayer5"]
@@ -577,7 +578,7 @@ scale = Vector2(0.386667, 0.419643)
 script = ExtResource("2_37rai")
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer5/Node2D2"]
-position = Vector2(1960.34, -71.4893)
+position = Vector2(1156.03, 781.617)
 scale = Vector2(0.971015, 0.688388)
 texture = ExtResource("19_w2blc")
 
@@ -585,7 +586,7 @@ texture = ExtResource("19_w2blc")
 position = Vector2(980.172, 576.681)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer5/Node2D2/Sprite2D/Area2D"]
-position = Vector2(-993.489, -576.681)
+position = Vector2(-1001.48, -562.834)
 shape = SubResource("RectangleShape2D_h8evs")
 
 [node name="Node2D3" type="Node2D" parent="CanvasLayer5"]
@@ -594,7 +595,7 @@ scale = Vector2(0.386667, 0.419643)
 script = ExtResource("2_37rai")
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer5/Node2D3"]
-position = Vector2(2218.96, -73.8723)
+position = Vector2(1130.17, 648.17)
 scale = Vector2(0.479251, 0.418233)
 texture = ExtResource("20_wji3x")
 
@@ -602,7 +603,7 @@ texture = ExtResource("20_wji3x")
 position = Vector2(980.172, 576.681)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer5/Node2D3/Sprite2D/Area2D"]
-position = Vector2(-953.19, -576.681)
+position = Vector2(-953.19, -570.983)
 shape = SubResource("RectangleShape2D_eyv6i")
 
 [node name="Node2D4" type="Node2D" parent="CanvasLayer5"]
@@ -611,7 +612,7 @@ scale = Vector2(0.386667, 0.419643)
 script = ExtResource("2_37rai")
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer5/Node2D4"]
-position = Vector2(1647.41, 245.447)
+position = Vector2(1502.58, 683.915)
 scale = Vector2(0.699123, 0.645495)
 texture = ExtResource("21_07c00")
 
@@ -619,7 +620,7 @@ texture = ExtResource("21_07c00")
 position = Vector2(980.172, 576.681)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer5/Node2D4/Sprite2D/Area2D"]
-position = Vector2(-983.871, -569.298)
+position = Vector2(-957.977, -554.531)
 shape = SubResource("RectangleShape2D_54dv3")
 
 [node name="Node2D5" type="Node2D" parent="CanvasLayer5"]
@@ -628,7 +629,7 @@ scale = Vector2(0.386667, 0.419643)
 script = ExtResource("2_37rai")
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer5/Node2D5"]
-position = Vector2(1931.89, 247.83)
+position = Vector2(1140.52, 505.191)
 scale = Vector2(0.412885, 0.355133)
 texture = ExtResource("22_lp2dk")
 
@@ -636,7 +637,7 @@ texture = ExtResource("22_lp2dk")
 position = Vector2(980.172, 576.681)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer5/Node2D5/Sprite2D/Area2D"]
-position = Vector2(-980.171, -563.261)
+position = Vector2(-1017.75, -576.681)
 shape = SubResource("RectangleShape2D_uc0vg")
 
 [node name="Node2D6" type="Node2D" parent="CanvasLayer5"]
@@ -645,15 +646,15 @@ scale = Vector2(0.386667, 0.419643)
 script = ExtResource("2_37rai")
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer5/Node2D6"]
-position = Vector2(2213.79, 250.213)
-scale = Vector2(0.479251, 0.418233)
+position = Vector2(1465.72, 834.042)
+scale = Vector2(0.4335, 0.418233)
 texture = ExtResource("23_apljm")
 
 [node name="Area2D" type="Area2D" parent="CanvasLayer5/Node2D6/Sprite2D"]
 position = Vector2(980.172, 576.681)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer5/Node2D6/Sprite2D/Area2D"]
-position = Vector2(-931.604, -582.379)
+position = Vector2(-930.932, -582.379)
 shape = SubResource("RectangleShape2D_lljfd")
 
 [node name="CanvasLayer6" type="CanvasLayer" parent="."]
@@ -665,7 +666,7 @@ scale = Vector2(0.386667, 0.419643)
 script = ExtResource("2_37rai")
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer6/Node2D3"]
-position = Vector2(2581.03, 579.064)
+position = Vector2(2837.07, 1153.36)
 scale = Vector2(0.794746, 0.674251)
 texture = ExtResource("24_lp2dk")
 
@@ -673,7 +674,7 @@ texture = ExtResource("24_lp2dk")
 position = Vector2(980.172, 576.681)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer6/Node2D3/Sprite2D/Area2D"]
-position = Vector2(-999.697, -587.284)
+position = Vector2(-1015.97, -590.818)
 shape = SubResource("RectangleShape2D_mx0kw")
 
 [node name="Node2D4" type="Node2D" parent="CanvasLayer6"]
@@ -682,15 +683,15 @@ scale = Vector2(0.386667, 0.419643)
 script = ExtResource("2_37rai")
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer6/Node2D4"]
-position = Vector2(2583.62, 193.021)
-scale = Vector2(0.794746, 0.674251)
+position = Vector2(1603.45, 107.234)
+scale = Vector2(0.799672, 0.674251)
 texture = ExtResource("25_apljm")
 
 [node name="Area2D" type="Area2D" parent="CanvasLayer6/Node2D4/Sprite2D"]
 position = Vector2(980.172, 576.681)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer6/Node2D4/Sprite2D/Area2D"]
-position = Vector2(-996.443, -555.476)
+position = Vector2(-996.342, -573.147)
 shape = SubResource("RectangleShape2D_mx0kw")
 
 [node name="Node2D5" type="Node2D" parent="CanvasLayer6"]
@@ -699,7 +700,7 @@ scale = Vector2(0.386667, 0.419643)
 script = ExtResource("2_37rai")
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer6/Node2D5"]
-position = Vector2(2578.45, -116.766)
+position = Vector2(1603.45, -209.702)
 scale = Vector2(0.794746, 0.674251)
 texture = ExtResource("26_4piyb")
 
@@ -707,7 +708,7 @@ texture = ExtResource("26_4piyb")
 position = Vector2(980.172, 576.681)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer6/Node2D5/Sprite2D/Area2D"]
-position = Vector2(-983.426, -569.613)
+position = Vector2(-996.443, -555.476)
 shape = SubResource("RectangleShape2D_mx0kw")
 
 [node name="CanvasLayer7" type="CanvasLayer" parent="."]
@@ -719,7 +720,7 @@ scale = Vector2(0.386667, 0.419643)
 script = ExtResource("2_37rai")
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer7/Node2D3"]
-position = Vector2(2.5862, 586.213)
+position = Vector2(-10.3448, 495.659)
 scale = Vector2(0.450824, 0.429797)
 texture = ExtResource("27_k178u")
 
@@ -727,7 +728,7 @@ texture = ExtResource("27_k178u")
 position = Vector2(980.172, 576.681)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer7/Node2D3/Sprite2D/Area2D"]
-position = Vector2(-980.172, -593.314)
+position = Vector2(-980.172, -582.225)
 shape = SubResource("RectangleShape2D_iguq1")
 
 [node name="Node2D4" type="Node2D" parent="CanvasLayer7"]
@@ -736,7 +737,7 @@ scale = Vector2(0.386667, 0.419643)
 script = ExtResource("2_37rai")
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer7/Node2D4"]
-position = Vector2(-20.6896, 845.957)
+position = Vector2(-25.862, 767.319)
 scale = Vector2(0.62126, 0.605094)
 texture = ExtResource("28_af0nv")
 
@@ -744,7 +745,7 @@ texture = ExtResource("28_af0nv")
 position = Vector2(980.172, 576.681)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer7/Node2D4/Sprite2D/Area2D"]
-position = Vector2(-980.172, -568.805)
+position = Vector2(-984.335, -556.99)
 scale = Vector2(0.999999, 0.999999)
 shape = SubResource("RectangleShape2D_16qdr")
 
@@ -754,7 +755,7 @@ scale = Vector2(0.386667, 0.419643)
 script = ExtResource("2_37rai")
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer7/Node2D5"]
-position = Vector2(-20.6896, 729.191)
+position = Vector2(-36.2069, 626.723)
 scale = Vector2(1.07588, 0.909413)
 texture = ExtResource("29_rpy4e")
 
@@ -762,7 +763,7 @@ texture = ExtResource("29_rpy4e")
 position = Vector2(980.172, 576.681)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer7/Node2D5/Sprite2D/Area2D"]
-position = Vector2(-972.961, -581.922)
+position = Vector2(-972.961, -608.125)
 shape = SubResource("RectangleShape2D_3o5cf")
 
 [node name="Node2D6" type="Node2D" parent="CanvasLayer7"]
@@ -771,7 +772,7 @@ scale = Vector2(0.386667, 0.419643)
 script = ExtResource("2_37rai")
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer7/Node2D6"]
-position = Vector2(-23.2759, 1003.23)
+position = Vector2(700.861, 805.447)
 scale = Vector2(0.913129, 0.870533)
 texture = ExtResource("30_m85tg")
 
@@ -779,7 +780,7 @@ texture = ExtResource("30_m85tg")
 position = Vector2(980.172, 576.681)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer7/Node2D6/Sprite2D/Area2D"]
-position = Vector2(-980.172, -590.368)
+position = Vector2(-997.166, -582.156)
 shape = SubResource("RectangleShape2D_pt05w")
 
 [node name="Node2D7" type="Node2D" parent="CanvasLayer7"]
@@ -805,7 +806,7 @@ scale = Vector2(0.386667, 0.419643)
 script = ExtResource("2_37rai")
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer7/Node2D8"]
-position = Vector2(364.655, 683.915)
+position = Vector2(346.551, 657.702)
 scale = Vector2(0.834518, 0.951901)
 texture = ExtResource("32_6o4a1")
 
@@ -813,7 +814,7 @@ texture = ExtResource("32_6o4a1")
 position = Vector2(980.172, 576.681)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer7/Node2D8/Sprite2D/Area2D"]
-position = Vector2(-973.974, -554.151)
+position = Vector2(-980.172, -551.647)
 shape = SubResource("RectangleShape2D_ljlsl")
 
 [node name="Node2D9" type="Node2D" parent="CanvasLayer7"]
@@ -822,7 +823,7 @@ scale = Vector2(0.386667, 0.419643)
 script = ExtResource("2_37rai")
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer7/Node2D9"]
-position = Vector2(364.655, 915.063)
+position = Vector2(343.965, 848.34)
 scale = Vector2(1.14144, 1.03416)
 texture = ExtResource("33_q0bbu")
 
@@ -830,7 +831,7 @@ texture = ExtResource("33_q0bbu")
 position = Vector2(980.172, 576.681)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer7/Node2D9/Sprite2D/Area2D"]
-position = Vector2(-968.843, -562.856)
+position = Vector2(-977.906, -560.551)
 shape = SubResource("RectangleShape2D_eh55v")
 
 [node name="Node2D10" type="Node2D" parent="CanvasLayer7"]
@@ -839,15 +840,15 @@ scale = Vector2(0.386667, 0.419643)
 script = ExtResource("2_37rai")
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer7/Node2D10"]
-position = Vector2(804.31, 650.553)
+position = Vector2(672.413, 540.936)
 scale = Vector2(0.435276, 0.376687)
 texture = ExtResource("34_x0op4")
 
 [node name="Area2D" type="Area2D" parent="CanvasLayer7/Node2D10/Sprite2D"]
-position = Vector2(980.172, 576.681)
+position = Vector2(950.643, 544.049)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer7/Node2D10/Sprite2D/Area2D"]
-position = Vector2(-986.114, -557.703)
+position = Vector2(-1004.12, -569.354)
 shape = SubResource("RectangleShape2D_fjlxf")
 
 [node name="Node2D11" type="Node2D" parent="CanvasLayer7"]
@@ -856,7 +857,7 @@ scale = Vector2(0.386667, 0.419643)
 script = ExtResource("2_37rai")
 
 [node name="Sprite2D" type="Sprite2D" parent="CanvasLayer7/Node2D11"]
-position = Vector2(840.573, 990.681)
+position = Vector2(680.172, 672)
 scale = Vector2(0.321942, 0.314189)
 texture = ExtResource("35_86krf")
 
@@ -864,7 +865,7 @@ texture = ExtResource("35_86krf")
 position = Vector2(980.172, 576.681)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CanvasLayer7/Node2D11/Sprite2D/Area2D"]
-position = Vector2(-1020.51, -559.483)
+position = Vector2(-1028.37, -561.512)
 shape = SubResource("RectangleShape2D_wk7ha")
 
 [node name="Control" type="Control" parent="."]
@@ -893,48 +894,51 @@ label_settings = SubResource("LabelSettings_rpy4e")
 
 [node name="Label3" type="Label" parent="Control"]
 layout_mode = 0
-offset_left = 789.0
-offset_top = 16.0
-offset_right = 876.0
-offset_bottom = 89.0
+offset_left = 512.0
+offset_top = 560.0
+offset_right = 599.0
+offset_bottom = 633.0
 text = "Stage 3
 "
 label_settings = SubResource("LabelSettings_m85tg")
 
 [node name="Label4" type="Label" parent="Control"]
 layout_mode = 0
-offset_left = 1036.0
-offset_top = 3.0
-offset_right = 1123.0
-offset_bottom = 38.0
+offset_left = 655.0
+offset_top = 2.0
+offset_right = 742.0
+offset_bottom = 37.0
 text = "Stage 4"
 label_settings = SubResource("LabelSettings_gdnx8")
 
 [node name="Label5" type="Label" parent="Control"]
 layout_mode = 0
-offset_left = 36.0
-offset_top = 356.0
-offset_right = 123.0
-offset_bottom = 429.0
+offset_left = 68.0
+offset_top = 574.0
+offset_right = 155.0
+offset_bottom = 647.0
 text = "Stage 5
 "
 label_settings = SubResource("LabelSettings_6o4a1")
 
 [node name="Label6" type="Label" parent="Control"]
 layout_mode = 0
-offset_left = 558.0
-offset_top = 354.0
-offset_right = 652.0
-offset_bottom = 427.0
+offset_left = 928.0
+offset_top = 14.0
+offset_right = 1022.0
+offset_bottom = 87.0
 text = "Stage 6 
 "
 label_settings = SubResource("LabelSettings_q0bbu")
 
-[node name="Control2" type="Control" parent="."]
+[node name="CanvasLayer8" type="CanvasLayer" parent="."]
+layer = 0
+
+[node name="Control2" type="Control" parent="CanvasLayer8"]
 layout_mode = 3
 anchors_preset = 0
 
-[node name="Label" type="Label" parent="Control2"]
+[node name="Label" type="Label" parent="CanvasLayer8/Control2"]
 layout_mode = 0
 offset_left = 45.0
 offset_top = 15.0
@@ -942,57 +946,425 @@ offset_right = 119.0
 offset_bottom = 93.0
 mouse_filter = 0
 label_settings = SubResource("LabelSettings_x0op4")
-horizontal_alignment = 1
 paragraph_separator = "/n"
 script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               820                              9 %                              1000 /nProtein                                  g               7.4                              15 %                              9.2 /n Fat, total                              g              1.4                                2 %                               1.8  /nFat, saturated (SFA)            g             0.30                               1 %                                0.37 /nCarbohydrate, available    g              36                                12 %                             45 /n Sugars, total                        g               2.5                                3 %                              3.1/nDietary fibre                         g              3.0                               10 %                            3.8/nSodium                             mg               420                                18 %                          530           /n     2 slices = 80 g"
 
-[node name="Control3" type="Control" parent="."]
+[node name="Control3" type="Control" parent="CanvasLayer8"]
 layout_mode = 3
 anchors_preset = 0
 
-[node name="Label" type="Label" parent="Control3"]
+[node name="Label" type="Label" parent="CanvasLayer8/Control3"]
 layout_mode = 0
-offset_left = 199.0
-offset_top = 15.0
-offset_right = 259.0
-offset_bottom = 90.0
+offset_left = 196.0
+offset_top = 8.0
+offset_right = 270.0
+offset_bottom = 86.0
 mouse_filter = 0
-text = "
-
-"
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
 script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               720                              8 %                              910 /nProtein                                  g               7.7                              15 %                              9.7 /n Fat, total                              g              2.1                                3 %                               2.6  /nFat, saturated (SFA)            g             0.40                               2 %                                0.50 /nCarbohydrate, available    g              28                                9 %                             35 /n Sugars, total                        g               2.6                                3 %                              3.3/nDietary fibre                         g              5.4                               18 %                            6.8/nSodium                             mg               300                                13 %                          380           /n  2 slices = 80 g"
 
-[node name="Control4" type="Control" parent="."]
+[node name="Control4" type="Control" parent="CanvasLayer8"]
 layout_mode = 3
 anchors_preset = 0
 
-[node name="Label" type="Label" parent="Control4"]
+[node name="Label" type="Label" parent="CanvasLayer8/Control4"]
 layout_mode = 0
 offset_left = 45.0
-offset_top = 157.0
-offset_right = 121.0
-offset_bottom = 232.0
+offset_top = 167.0
+offset_right = 119.0
+offset_bottom = 221.0
 mouse_filter = 0
-text = "
-
-"
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
 script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               900                              10 %                              1100 /nProtein                                  g               8.6                              17 %                              11 /n Fat, total                              g              6.8                                10 %                               8.5  /nFat, saturated (SFA)            g             0.90                               4 %                                1.1 /nCarbohydrate, available    g              27                                9 %                             33 /n Sugars, total                        g               2.3                                3 %                              2.9/nDietary fibre                         g              5.7                               19 %                            7.1/nSodium                             mg               340                                15 %                          430           /n     2 slices = 80 g"
 
-[node name="Control5" type="Control" parent="."]
+[node name="Control5" type="Control" parent="CanvasLayer8"]
 layout_mode = 3
 anchors_preset = 0
 
-[node name="Label" type="Label" parent="Control5"]
+[node name="Label" type="Label" parent="CanvasLayer8/Control5"]
 layout_mode = 0
-offset_left = 182.0
-offset_top = 174.0
-offset_right = 270.0
-offset_bottom = 249.0
+offset_left = 201.0
+offset_top = 187.0
+offset_right = 261.0
+offset_bottom = 229.0
 mouse_filter = 0
-text = "
-
-"
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
 script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               620                              7 %                              770 /nProtein                                  g               4.1                              8 %                              5.2 /n Fat, total                              g              1.5                                2 %                               1.9  /nFat, saturated (SFA)            g             0.23                               1 %                                0.29 /nCarbohydrate, available    g              25                                8 %                             32 /n Sugars, total                        g               2.6                                3 %                              3.2/nDietary fibre                         g              7.8                               26 %                            9.8/nSodium                             mg               380                                17 %                          480           /n     2 slices = 80 g"
+
+[node name="Control6" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control6"]
+layout_mode = 0
+offset_left = 424.0
+offset_top = 15.0
+offset_right = 491.0
+offset_bottom = 93.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               34                              0 %                              210 /nProtein                                  g               0.3                              1 %                              1.7 /n Fat, total                              g              0.0                                0 %                               0.2  /nFat, saturated (SFA)            g             0.00                               0 %                                0.00 /nCarbohydrate, available    g              1.5                                0 %                             9.5 /n Sugars, total                        g               1.1                                1 %                              7.0/nDietary fibre                         g              0.3                               1 %                            1.6/nSodium                             mg               62                                3 %                          390           /n     1 tablespoon = 16 g "
+
+[node name="Control7" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control7"]
+layout_mode = 0
+offset_left = 530.0
+offset_top = 15.0
+offset_right = 592.0
+offset_bottom = 82.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               270                              3 %                              1800 /nProtein                                  g               1.0                              2 %                              6.3 /n Fat, total                              g              6.6                                9 %                               44  /nFat, saturated (SFA)            g             0.84                               4 %                                0.56 /nCarbohydrate, available    g              0.7                                0 %                             4.6 /n Sugars, total                        g               0.0                                0 %                              0.0/nDietary fibre                         g              0.2                               1 %                            1.5/nSodium                             mg               68                                3 %                          450           /n     1 tablespoon = 15 g "
+
+[node name="Control8" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control8"]
+layout_mode = 0
+offset_left = 541.0
+offset_top = 187.0
+offset_right = 603.0
+offset_bottom = 232.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               94                              1 %                              590 /nProtein                                  g               1.1                              2 %                              6.9 /n Fat, total                              g              1.0                                1 %                               6.2  /nFat, saturated (SFA)            g             0.13                               1 %                                0.83 /nCarbohydrate, available    g              1.8                                1 %                             11 /n Sugars, total                        g               0.0                                0 %                              0.0/nDietary fibre                         g              1.0                               3 %                            6.0/nSodium                             mg               48                                2 %                          300           /n     1 tablespoon = 16 g "
+
+[node name="Control9" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control9"]
+layout_mode = 0
+offset_left = 344.0
+offset_top = 166.0
+offset_right = 399.0
+offset_bottom = 215.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               100                              1 %                              2100 /nProtein                                  g               0.0                              0 %                              0.3 /n Fat, total                              g              2.8                                4 %                               56  /nFat, saturated (SFA)            g             0.70                               3 %                                14 /nCarbohydrate, available    g              0.0                                0 %                             0.0 /n Sugars, total                        g               0.0                                0 %                              0.0/nDietary fibre                         g              0.0                               0 %                            0.0/nSodium                             mg               19                                1 %                          380           /n     1 teaspoon = 5 g"
+
+[node name="Control10" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control10"]
+layout_mode = 0
+offset_left = 711.0
+offset_top = 359.0
+offset_right = 787.0
+offset_bottom = 431.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               360                              4 %                              450 /nProtein                                  g               9.3                              19 %                              12 /n Fat, total                              g              5.3                                8 %                               6.6  /nFat, saturated (SFA)            g             0.74                               3 %                                0.92 /nCarbohydrate, available    g              0.0                                0 %                             0.0 /n Sugars, total                        g               0.0                                0 %                              0.0/nDietary fibre                         g              0.8                               3 %                            1.0/nSodium                             mg               4                                0 %                          5           /n     80 g"
+
+[node name="Control11" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control11"]
+layout_mode = 0
+offset_left = 723.0
+offset_top = 441.0
+offset_right = 776.0
+offset_bottom = 485.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               220                              3 %                              440 /nProtein                                  g               6.5                              13 %                              13 /n Fat, total                              g              2.5                                4 %                               5.1  /nFat, saturated (SFA)            g             0.94                               4 %                                1.9 /nCarbohydrate, available    g              0.9                                0 %                             1.8 /n Sugars, total                        g               0.0                                0 %                              0.0/nDietary fibre                         g              0.0                               0 %                            0.0/nSodium                             mg               750                                33 %                          1500           /n  2 slices = 50 g"
+
+[node name="Control12" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control12"]
+layout_mode = 0
+offset_left = 125.0
+offset_top = 359.0
+offset_right = 178.0
+offset_bottom = 404.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               120                              1 %                              160 /nProtein                                  g               0.5                              1 %                              0.6 /n Fat, total                              g              0.2                                0 %                               0.2  /nFat, saturated (SFA)            g             0.02                               0 %                                0.03 /nCarbohydrate, available    g              5.4                                2 %                             6.8 /n Sugars, total                        g               5.3                                6 %                              6.6/nDietary fibre                         g              2.2                               7 %                            2.8/nSodium                             mg               33                                1 %                          41           /n  80 g"
+
+[node name="Control13" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control13"]
+layout_mode = 0
+offset_left = 122.0
+offset_top = 416.0
+offset_right = 175.0
+offset_bottom = 459.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               86                              1 %                              110 /nProtein                                  g               1.0                              2 %                              1.2 /n Fat, total                              g              0.2                                0 %                               0.2  /nFat, saturated (SFA)            g             0.03                               0 %                                0.04 /nCarbohydrate, available    g              3.1                                1 %                             3.9 /n Sugars, total                        g               3.1                                3 %                              39/nDietary fibre                         g              1.4                               5 %                            1.8/nSodium                             mg               6                                0 %                          7           /n  80 g"
+
+[node name="Control14" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control14"]
+layout_mode = 0
+offset_left = 128.0
+offset_top = 474.0
+offset_right = 161.0
+offset_bottom = 510.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               110                              1 %                              440 /nProtein                                  g               0.1                              0 %                              0.4 /n Fat, total                              g              0.1                                0 %                               0.3  /nFat, saturated (SFA)            g             0.00                               0 %                                0.00 /nCarbohydrate, available    g              6.1                                2 %                             24 /n Sugars, total                        g               5.9                                7 %                              24/nDietary fibre                         g              0.2                               1 %                            1.0/nSodium                             mg               130                                6 %                          520           /n  25 g"
+
+[node name="Control15" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control15"]
+layout_mode = 0
+offset_left = 393.0
+offset_top = 490.0
+offset_right = 446.0
+offset_bottom = 535.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               150                              2 %                              980 /nProtein                                  g               0.2                              0 %                              1.6 /n Fat, total                              g              3.8                                5 %                               25  /nFat, saturated (SFA)            g             0.53                               2 %                                3.5 /nCarbohydrate, available    g              0.0                               0 %                             0.0 /n Sugars, total                        g               0.0                                0 %                              0.0/nDietary fibre                         g              0.5                               2 %                            3.3/nSodium                             mg               8                                0 %                          54           /n  5 olvies = 15 g"
+
+[node name="Control16" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control16"]
+layout_mode = 0
+offset_left = 258.0
+offset_top = 370.0
+offset_right = 311.0
+offset_bottom = 415.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               41                              0 %                              51 /nProtein                                  g               0.6                              1 %                              0.8 /n Fat, total                              g              0.0                                0 %                               0.0  /nFat, saturated (SFA)            g             0.00                               0 %                                0.00 /nCarbohydrate, available    g              1.5                                0 %                             1.9 /n Sugars, total                        g               1.4                                2 %                              1.8/nDietary fibre                         g              0.6                               2 %                            0.8/nSodium                             mg               2                                0 %                          2           /n  80 g"
+
+[node name="Control17" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control17"]
+layout_mode = 0
+offset_left = 264.0
+offset_top = 430.0
+offset_right = 312.0
+offset_bottom = 474.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               800                              9 %                              940 /nProtein                                  g               3.6                              7 %                              4.2 /n Fat, total                              g              19                                27 %                               22  /nFat, saturated (SFA)            g             2.2                               9 %                                2.6 /nCarbohydrate, available    g              0.5                                0 %                             0.6 /n Sugars, total                        g               0.4                                0 %                              0.5/nDietary fibre                         g              4.2                               14 %                            5.0/nSodium                             mg               5                                0 %                          6           /n  1/2 avocado = 85 g"
+
+[node name="Control18" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control18"]
+layout_mode = 0
+offset_left = 265.0
+offset_top = 479.0
+offset_right = 320.0
+offset_bottom = 540.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               68                              1 %                              85 /nProtein                                  g               0.8                              2 %                              0.9 /n Fat, total                              g              0.2                                0 %                               0.2  /nFat, saturated (SFA)            g             0.03                               0 %                                0.04 /nCarbohydrate, available    g              2.3                                1 %                             2.9 /n Sugars, total                        g               2.2                                2 %                              2.8/nDietary fibre                         g              1.2                               4 %                            1.5/nSodium                             mg               0                                0 %                          0           /n  80 g"
+
+[node name="Control19" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control19"]
+layout_mode = 0
+offset_left = 370.0
+offset_top = 359.0
+offset_right = 417.0
+offset_bottom = 402.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               120                              1 %                              150 /nProtein                                  g               0.9                              2 %                              1.1 /n Fat, total                              g              0.2                                0 %                               0.2  /nFat, saturated (SFA)            g             0.02                               0 %                                0.02 /nCarbohydrate, available    g              5.0                                2 %                             6.3 /n Sugars, total                        g               5.0                                2 %                              6.3/nDietary fibre                         g              1.4                               5 %                            1.7/nSodium                             mg               2                                0 %                          2           /n  80 g"
+
+[node name="Control20" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control20"]
+layout_mode = 0
+offset_left = 380.0
+offset_top = 437.0
+offset_right = 434.0
+offset_bottom = 473.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               50                              1 %                              62 /nProtein                                  g               0.3                              1 %                              0.4 /n Fat, total                              g              0.1                                0 %                               0.2  /nFat, saturated (SFA)            g             0.04                               0 %                                0.05 /nCarbohydrate, available    g              1.8                                1 %                             2.3 /n Sugars, total                        g               1.5                                2 %                              1.9/nDietary fibre                         g              1.1                               4 %                            1.4/nSodium                             mg               2                                0 %                          2           /n  80 g"
+
+[node name="Control21" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control21"]
+layout_mode = 0
+offset_left = 572.0
+offset_top = 354.0
+offset_right = 617.0
+offset_bottom = 406.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               570                              7 %                              440 /nProtein                                  g               28                              56 %                              22 /n Fat, total                              g              2.5                                4 %                               1.9  /nFat, saturated (SFA)            g             0.70                               3 %                                0.54 /nCarbohydrate, available    g              0.0                                0 %                             0.0 /n Sugars, total                        g               0.0                                0 %                              0.0/nDietary fibre                         g              0.0                               0 %                            0.0/nSodium                             mg               120                                5 %                          92           /n  130 g"
+
+[node name="Control22" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control22"]
+layout_mode = 0
+offset_left = 572.0
+offset_top = 420.0
+offset_right = 617.0
+offset_bottom = 464.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               72                              1 %                              210 /nProtein                                  g               4.2                              8 %                              12 /n Fat, total                              g              0.0                                0 %                               0.0  /nFat, saturated (SFA)            g             0.00                               0 %                                0.00 /nCarbohydrate, available    g              0.1                                0 %                             0.2 /n Sugars, total                        g               0.1                                0 %                              0.2/nDietary fibre                         g              0.0                               0 %                            0.0/nSodium                             mg               65                                3 %                          190           /n  1 egg (size 6) = 34 g"
+
+[node name="Control23" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control23"]
+layout_mode = 0
+offset_left = 572.0
+offset_top = 477.0
+offset_right = 617.0
+offset_bottom = 519.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               440                              5 %                              440 /nProtein                                  g               22                              44 %                              22 /n Fat, total                              g              1.6                                2 %                               1.6  /nFat, saturated (SFA)            g             0.34                               1 %                                0.34 /nCarbohydrate, available    g              0.3                                0 %                             0.3 /n Sugars, total                        g               0.3                                0 %                              0.3/nDietary fibre                         g              0.0                               0 %                            0.0/nSodium                             mg               98                                4 %                          98           /n  1 fillet = 100 g"
+
+[node name="Control24" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control24"]
+layout_mode = 0
+offset_left = 724.0
+offset_top = 496.0
+offset_right = 775.0
+offset_bottom = 542.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               990                              11 %                              760 /nProtein                                  g               25                              50 %                              19 /n Fat, total                              g              15                                22 %                               12  /nFat, saturated (SFA)            g             6.0                               25 %                                4.6 /nCarbohydrate, available    g              0.0                                0 %                             0.0 /n Sugars, total                        g               0.0                                0 %                              0.0/nDietary fibre                         g              0.0                               0 %                            0.0/nSodium                             mg               81                                4 %                          62           /n  130 g"
+
+[node name="Control25" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control25"]
+layout_mode = 0
+offset_left = 667.0
+offset_top = 33.0
+offset_right = 720.0
+offset_bottom = 64.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               700                              8 %                              1800 /nProtein                                  g               9.7                              19 %                              24 /n Fat, total                              g              14                                21 %                               36  /nFat, saturated (SFA)            g             9.4                               39 %                                24 /nCarbohydrate, available    g              0.0                                0 %                             0.0 /n Sugars, total                        g               0.0                                0 %                              0.0/nDietary fibre                         g              0.0                               0 %                            0.0/nSodium                             mg               300                                13 %                          740           /n  2 slices = 40 g"
+
+[node name="Control26" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control26"]
+layout_mode = 0
+offset_left = 667.0
+offset_top = 130.0
+offset_right = 720.0
+offset_bottom = 161.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               640                              7 %                              1600 /nProtein                                  g               11                              23 %                              28 /n Fat, total                              g              12                                17 %                               30  /nFat, saturated (SFA)            g             8.0                               33 %                                20 /nCarbohydrate, available    g              0.0                                0 %                             0.1 /n Sugars, total                        g               0.0                                0 %                              0.1/nDietary fibre                         g              0.0                               0 %                            0.0/nSodium                             mg               170                                7 %                          420           /n  2 slices = 40 g"
+
+[node name="Control27" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control27"]
+layout_mode = 0
+offset_left = 1105.0
+offset_top = 10.0
+offset_right = 1149.0
+offset_bottom = 61.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "hello"
+
+[node name="Control28" type="Control" parent="CanvasLayer8"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="CanvasLayer8/Control28"]
+layout_mode = 0
+offset_left = 440.0
+offset_top = 176.0
+offset_right = 491.0
+offset_bottom = 221.0
+mouse_filter = 0
+label_settings = SubResource("LabelSettings_x0op4")
+paragraph_separator = "/n"
+script = ExtResource("39_gdnx8")
+full_text = "NUTRIENT                          UNIT    QUANTITY PER SERVE    %DI* PER SERVE    QUANTITY PER 100 g    /nEnergy, FSANZ                   kJ               69                              1 %                              2300 /nProtein                                  g               0.9                              2 %                              29 /n Fat, total                              g              1.2                                2 %                               40  /nFat, saturated (SFA)            g             0.06                               0 %                                2.0 /nCarbohydrate, available    g              0.5                                0 %                             17 /n Sugars, total                        g               0.1                                0 %                              5.0/nDietary fibre                         g              0.2                               1 %                            6.6/nSodium                             mg               0                                0 %                          5           /n  1 teaspoon = 3 g"
 
 [connection signal="input_event" from="Node2D/Sprite2D/Area2D" to="Node2D" method="_on_area_2d_input_event"]
 [connection signal="input_event" from="Node2D2/Sprite2D/Area2D" to="Node2D2" method="_on_area_2d_input_event"]
